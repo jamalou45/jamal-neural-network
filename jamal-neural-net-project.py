@@ -18,8 +18,8 @@ from sklearn.model_selection import train_test_split  # Import train_test_split 
 import six
 from IPython.display import Image
 import datetime
-import pydotplus
-import dash-cytoscape as cyto
+# import pydotplus
+import dash_cytoscape as cyto
 import dash
 from dash import dash_table
 import dash_bootstrap_components as dbc
