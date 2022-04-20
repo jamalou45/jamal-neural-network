@@ -1,1 +1,1 @@
-web: gunicorn jamal-neural-net-project:server
+web: gunicorn jamal-neural-net-proj:server
