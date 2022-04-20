@@ -34,11 +34,10 @@ import plotly.graph_objects as go
 
 credit_data = pd.ExcelFile("credit.xls")
 df = pd.read_excel(credit_data, "Data", skiprows=1)
-del(credit_data)
+del credit_data
 # on récupère une copie de du dataframe df au cas où un rechargement de la base de données est nécessaire
 data = df.loc[:, df.columns[:]].copy()
-del(df)
-
+del df
 
 
 # - Toutes les variables sont numériques et d'après le dictionnaire, 3 d'entre elles sont qualitatives dont l'une est binaire. Nous allons dans la suite encoder les deux autres variables.
