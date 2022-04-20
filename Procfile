@@ -1,1 +1,0 @@
-web: gunicorn jamal-neural-net-proj:server
